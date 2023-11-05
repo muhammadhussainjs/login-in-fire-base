@@ -16,7 +16,7 @@ submit.addEventListener("submit" , (e)=>{
   .then((userCredential) => {
     const user = userCredential.user;
     console.log(user);
-    window.location = "index.html"
+    window.location = "logout.html"
 
   })
   .catch((error) => {
